@@ -1,0 +1,16 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "Online store",
+  "main": "index.js",
+  "scripts": {
+    "install:app": "concurrently \"cd backend && composer install\"",
+    "start": "concurrently \"cd backend && php artisan serve\""
+
+  },
+  "author": "Konstantin",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
