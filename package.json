@@ -6,7 +6,6 @@
   "scripts": {
     "install:app": "concurrently \"cd backend && composer install\"",
     "start": "concurrently \"cd backend && php artisan serve\""
-
   },
   "author": "Konstantin",
   "license": "ISC",
